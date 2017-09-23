@@ -1,0 +1,35 @@
+{
+  "name": "redux-data-entity-offline",
+  "version": "0.0.1",
+  "author": {
+    "name": "iamawebgeek",
+    "url": "https://github.com/iamawebgeek"
+  },
+  "keywords": [
+    "data entity offline",
+    "redux data entity",
+    "redux offline"
+  ],
+  "repository": "https://github.com/iamawebgeek/redux-data-entity-offline",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "redux-data-entity": "~0.1.1"
+  },
+  "peerDependencies": {
+    "redux-offline": "~2.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1"
+  }
+}
